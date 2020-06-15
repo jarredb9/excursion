@@ -1,10 +1,11 @@
 header {
     background-color: black;
     color: white;
-    font-size: 32px;
+    font-size: 50px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: Verdana, sans-serif;
 }
 
 body {
@@ -14,7 +15,41 @@ body {
 .link {
     text-align: center;
 }
+
+.video {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.camp {
+    
+    text-align: center;
+}
+
 a {
-    color: turquoise;
+    color: aquamarine;
     text-decoration: underline;
+    font-size: 16px
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+footer {
+    text-align: right;
+}
+
+img {
+    padding: 20px;
 }
